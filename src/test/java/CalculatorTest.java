@@ -39,7 +39,7 @@ class CalculatorTest {
     @Test
     void squareroot() {
         Calculator mycalc4 = new Calculator();
-        int sum = mycalc4.squareroot(4,4);
-        assertEquals(sum, 64);
+        double sum = mycalc4.squareroot(4);
+        assertEquals(sum, 2);
     }
 }

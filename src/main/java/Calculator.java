@@ -32,8 +32,9 @@ public class Calculator {
         return div;
     }
 
-    public int squareroot(int num1, int num2) {
-        int square = (num1 + num2) * (num1 + num2);
+    public double squareroot(double num1) {
+    double square = Math.sqrt(num1);
+
         return square;
     }
 }
